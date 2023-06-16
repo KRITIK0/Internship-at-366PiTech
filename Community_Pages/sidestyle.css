@@ -1,0 +1,404 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #25282a;
+  position: absolute;
+  height: 55px;
+  left: 0;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 30px;
+  padding: 6px;
+}
+.logo {
+  padding-left: 20px;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+#shortlogo {
+  position: absolute;
+  top: 10px;
+  left: 35px;
+  color: #00d179;
+  font-size: 30px;
+}
+.btn {
+  position: absolute;
+  top: 10px;
+  left: 85px;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  background-color: #25282a;
+  color: aliceblue;
+  padding: 15px;
+  height: 107vh;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.profile_details {
+  border-bottom: solid white 2px;
+  padding-bottom: 15px;
+  transition: all 0.5s ease;
+}
+.green {
+  color: #00d179;
+}
+.green a {
+  color: #00d179;
+}
+#prod {
+  opacity: 0;
+}
+.group1 {
+  position: absolute;
+  top: 85px;
+  width: 200px;
+}
+.links li {
+  height: 50px;
+}
+.links li a {
+  color: aliceblue;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.links li a:hover {
+  color: #00d179;
+}
+#border {
+  border-bottom: solid 2px white;
+  position: absolute;
+  width: 230px;
+  top: 465px;
+  opacity: 0;
+}
+#border li {
+  opacity: 0;
+}
+
+.group2 {
+  position: absolute;
+  top: 440px;
+}
+#community {
+  height: 60px;
+  width: 200px;
+}
+#frpad {
+  padding-left: 17px;
+  padding-top: 10px;
+}
+#border2 {
+  border-bottom: solid 2px white;
+  position: absolute;
+  width: 230px;
+  top: 515px;
+  opacity: 0;
+}
+#border2 li {
+  opacity: 0;
+}
+.group3 {
+  position: absolute;
+  top: 490px;
+}
+.others li {
+  padding-left: 17px;
+  padding-top: 10px;
+  height: 50px;
+  width: 200px;
+}
+.others li a {
+  color: aliceblue;
+}
+.others li a:hover {
+  color: #00d179;
+}
+.group4 {
+  position: absolute;
+  top: 730px;
+  width: 230px;
+  opacity: 0;
+  border-top: solid 2px whitesmoke;
+}
+.flo2023 {
+  margin-top: 20px;
+}
+.flo2023 li {
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+.flo2023 li img {
+  padding-right: 15px;
+}
+.comm {
+  position: absolute;
+  top: 140px;
+  border-radius: 25px;
+  width: 140px;
+  height: 20px;
+  background-color: #00d179;
+  font-size: 15px;
+  text-align: center;
+  left: 1300px;
+}
+.comm a {
+  color: aliceblue;
+}
+.Ban {
+  position: absolute;
+  height: 40px;
+  left: 290px;
+  right: 30px;
+  top: 200px;
+  bottom: 68.5%;
+  background: #c4c4c4;
+  padding-top: 8px;
+}
+.Ban img {
+  padding-left: 15px;
+}
+.Ban #ar {
+  padding-left: 50px;
+}
+.Ban #v1 {
+  position: absolute;
+  right: 10px;
+  padding-top: 0px;
+}
+.Na {
+  padding-left: 480px;
+  padding-top: 270px;
+  position: absolute;
+  font-size: 15px;
+}
+.Cr {
+  padding-left: 900px;
+  padding-top: 270px;
+  position: absolute;
+  font-size: 15px;
+}
+.Up {
+  padding-left: 1145px;
+  padding-top: 270px;
+  position: absolute;
+  font-size: 15px;
+}
+.b1 {
+  width: 1111px;
+  height: 72px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  position: relative;
+  left: 320px;
+  top: 325px;
+}
+.b1 img {
+  padding-top: 7px;
+  padding-left: 7px;
+}
+.n1 {
+  position: absolute;
+  left: 145px;
+  top: 40px;
+  transform: translateY(-50%);
+}
+.oc17 {
+  position: absolute;
+  right: 455px;
+  top: 45%;
+}
+.ma28 {
+  position: absolute;
+  right: 210px;
+  top: 45%;
+}
+.do1 {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+.b2 {
+  width: 1111px;
+  height: 72px;
+  background-color: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 12px;
+  position: relative;
+  left: 320px;
+  top: 335px;
+}
+.b2 img {
+  padding-top: 7px;
+  padding-left: 7px;
+}
+.n2 {
+  position: absolute;
+  left: 145px;
+  top: 40px;
+  transform: translateY(-50%);
+}
+.s22 {
+  position: absolute;
+  right: 455px;
+  top: 45%;
+}
+.oc20 {
+  position: absolute;
+  right: 210px;
+  top: 45%;
+}
+.do2 {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+.b3 {
+  width: 1111px;
+  height: 72px;
+  background-color: #f2f2f2;
+  border: 1px solid #c4c4c4;
+  border-radius: 12px;
+  position: relative;
+  left: 320px;
+  top: 345px;
+}
+.b3 img {
+  padding-top: 7px;
+  padding-left: 5px;
+}
+.n3 {
+  position: absolute;
+  left: 145px;
+  top: 25px;
+  transform: translate(-50);
+}
+.se28 {
+  position: absolute;
+  right: 413px;
+  top: 25px;
+  transform: translate(-50%);
+}
+.se {
+  position: absolute;
+  right: 179px;
+  top: 25px;
+  transform: translate(-50%);
+}
+.do3 {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+.b4 {
+  width: 1111px;
+  height: 72px;
+  background-color: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 12px;
+  position: relative;
+  left: 320px;
+  top: 350px;
+}
+.b4 img {
+  padding-top: 7px;
+  padding-left: 5px;
+}
+.n4 {
+  position: absolute;
+  left: 145px;
+  top: 25px;
+  transform: translate(-50);
+}
+.m28 {
+  position: absolute;
+  right: 413px;
+  top: 25px;
+  transform: translate(-50%);
+}
+.ma {
+  position: absolute;
+  right: 179px;
+  top: 25px;
+  transform: translate(-50%);
+}
+.do4 {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+.sidebar.active ~ .content {
+  left: 60px;
+  position: absolute;
+}
+.sidebar.active {
+  width: 260px;
+}
+.sidebar.active .btn {
+  left: 101%;
+}
+.sidebar.active .logo {
+  opacity: 1;
+}
+.sidebar.active #shortlogo {
+  opacity: 0;
+}
+.sidebar.active #prod {
+  opacity: 1;
+}
+.hide {
+  opacity: 0;
+}
+.sidebar.active .hide {
+  opacity: 1;
+}
+.tooltip {
+  color: antiquewhite;
+  opacity: 0;
+}
+.sidebar.active .group1 {
+  top: 150px;
+}
+.sidebar.active .group2 {
+  top: 495px;
+}
+.sidebar.active .group3 {
+  top: 535px;
+}
+.sidebar.active .group4 {
+  opacity: 1;
+}
+.sidebar.active #border {
+  opacity: 1;
+}
+.sidebar.active #border2 {
+  opacity: 1;
+}

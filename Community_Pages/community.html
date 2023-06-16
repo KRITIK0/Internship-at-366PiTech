@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community List</title>
+    <link href='E:\336_pi_internship\Community_Pages\style.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <label class="logo"><img src="FloCard for Community_White.png"></label>
+        <ul class="right-nav-bar">
+            <li class="vector"><img src="question.png"></li>
+            <li class="vector"><img src="notification.png"></li>
+            <li class="vector"><img src="profile.png"/></li>
+        </ul>
+    </nav>
+
+    <div class="sidebar">
+        <ul class="profile_details">
+            <li>WELCOME</li>
+            <li>AMIT KUMAR PANDEY</li>
+            <li class="green"><a href="profileDetails.html">@BENJAMIN_OLIVER</a>    <img src="info.png"></li>
+        </ul>
+        <ul class="links">
+            <li><img src="home.png">    &nbsp;&nbsp;&nbsp;<a href="profileDetails.html">Cards</a></li>
+            <li><img src="exchange.png">    &nbsp;&nbsp;&nbsp;<a href="profileDetails.html">Exchange</a></li>
+            <li><img src="contacts.png">    &nbsp;&nbsp;&nbsp;<a href="profileDetails.html">My Contacts</a></li>
+            <li><img src="barcode.png">    &nbsp;&nbsp;&nbsp;<a href="profileDetails.html">My Flocard Id</a></li>
+            <li><img src="archived.png">    &nbsp;&nbsp;&nbsp;<a href="profileDetails.html">My Archived Cards</a></li>
+            <li><img src="tree.png">    &nbsp;&nbsp;&nbsp;<a href="profileDetails.html">My Flocard Tree</a></li>
+            <li><img src="planters.png">    &nbsp;&nbsp;&nbsp;<a href="profileDetails.html">Planters App</a></li>
+        </ul>
+        <ul id="community">
+            <li class="green"><img src="Shape.png">    &nbsp;&nbsp;<a href="profileDetails.html">FloCard For Community</a></li>
+        </ul>
+        <ul class="others">
+            <li><img src="q.png">    &nbsp;&nbsp;&nbsp;<a href="profileDetails.html">FAQs</a></li>
+            <li><img src="policies.png">    &nbsp;&nbsp;&nbsp;<a href="profileDetails.html">FloCard Policies</a></li>
+            <li><img src="contact.png">    &nbsp;&nbsp;&nbsp;<a href="profileDetails.html">Support</a></li>
+            <li><img src="guide.png">   &nbsp;&nbsp; <a href="profileDetails.html">FloCard Guide</a></li>
+        </ul>
+        <ul class="flo2023">
+            <li><img src="c.png">    <img src="2023.png"></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div>
+            <h4>Add New Community</h4>
+            <card id="form">
+                <h5 class="own">Add Community Owner</h5>
+                <input id="owner" type="text"> 
+                <input type="button" id="addOwner" value="Add Owner" onclick="alert('Owner added')">
+                <h5 class="add">Add Community Name</h5>
+                <input id="cname" type="text"placeholder="Add Community Name">
+                <h6 class="banner">Add Banner Images</h6>
+                <button id="addimg" onclick="alert('add pictures')"><img id="addlogo" src="addimage.png"></button>  
+                <h6 class="addlo">Add Logo</h6>
+                <button id="addimg2" onclick="alert('Add logo')"><img id="addlogo2" src="addimage.png"></button>
+                <h6 class="size">Recommended size 1920x500 px</h6> 
+                <h6 class="size2">Recommended size 300x300 px</h6>
+                <h5 id="desc">Add Description</h5>
+                <input type="text" id="descbox" placeholder="Add a brief description about the community">
+                <h5 id="addtag">Add Tags</h5>
+                <input id="tags" type="text">
+                <button id="save">Save Draft</button>
+                <button id="publish">Publish</button>
+            </card>
+        </div>
+        <div>
+            <h4 id="preview">Preview</h4>
+            <card>
+                <input type="text" id="pre">
+                <h5 id="curl">Community URL</h5>
+                <a id="urlcopy" href="https://flocard.app/FC/BathuKatarni">https://flocard.app/FC/BathuKatarni</a>
+                <img id="cpy" src="copyu.png"> 
+                <input type="button" id="preu" value="Preview" onclick="alert('wait for the preview')">
+            </card>
+
+        </div>
+    </div>
+</body>
+</html>
